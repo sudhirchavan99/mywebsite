@@ -1,0 +1,107 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.image-section {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    background: url('../assets/hero.jpeg') no-repeat center center;
+    background-size: cover;
+}
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(104, 103, 103, 0.6); /* Light theme overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image-overlay h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff; /* Dark text for contrast */
+}
+
+.image-overlay h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f80216; /* Dark text for contrast */
+}
+
+.image-overlay p {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.about {
+    background-color: #f8f9fa; /* Light background */
+    padding: 60px 0;
+}
+.about img {
+    border-radius: 50%; /* Rounded corners for image */
+}
+.about .content h1 {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+.about ul {
+    list-style: none;
+    padding: 0;
+}
+.about ul li {
+    margin-bottom: 10px;
+}
+.about ul li i {
+    color: #007bff; /* Bootstrap primary color */
+    margin-right: 5px;
+}
+
+.carousel-item {
+    text-align: center;
+    padding: 50px;
+}
+.carousel img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(1);
+}
+
+.contact-section {
+    padding: 60px 0;
+    background: #f8f9fa;
+}
+.contact-box {
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contact-box h3 {
+    font-weight: bold;
+}
+.contact-info i {
+    font-size: 20px;
+    color: #007bff;
+    margin-right: 10px;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    font-size: 20px;
+    color: #007bff;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: #0056b3;
+}
